@@ -1,38 +1,186 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+h3 {
+  font-weight: 700;
   color: white;
-}
+  font-style: italic;
+  font-size: 72px;
+  font-family: "Martel", serif; }
 
-.App-link {
-  color: #61dafb;
-}
+.jumbotron {
+  margin: 0px;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white; }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+.navbar {
+  background-color: rgba(0, 0, 0, 0.7);
+  border-bottom: solid 3px #6a2827;
+  margin-bottom: 0px; }
+
+.menu-item {
+  font-family: "Martel", serif;
+  color: white; }
+
+/* .bgimg {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh; } */
+
+.bgimg-footer {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed; }
+
+.site-footer {
+  background-color: rgba(0, 0, 0, 0.1);
+  border-top: solid 3px #6a2827;
+  padding-top: 20px;
+  color: white;
+  font-family: "Martel", serif; }
+
+.logo2 {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto; }
+
+.xbutton {
+  font-size: 2em;
+  color: white;
+  position: relative;
+  font-family: "Martel", serif; }
+
+.navbar-nav.navbar-center {
+  position: absolute;
+  left: 50%;
+  transform: translatex(-50%); }
+
+.button {
+  display: block;
+  height: 100%;
+  font-size: 1.2em;
+  font-weight: 500;
+  color: white;
+  padding-left: 37px;
+  padding-right: 36px;
+  line-height: 55px;
+  margin-bottom: 0px;
+  background-color: #6a2827;
+  font-family: white; }
+
+form {
+  padding: 20px; }
+
+.book-button {
+  display: block;
+  height: 100%;
+  font-size: 1.1em;
+  font-weight: 500;
+  color: white;
+  padding-left: 37px;
+  padding-right: 36px;
+  line-height: 55px;
+  margin: 10px;
+  background-color: #6a2827;
+  font-family: "Martel", serif;
+  border: none; }
+
+.welcome {
+  text-align: center;
+  padding-top: 50px;
+  color: white; }
+
+img {
+  padding: 20px;
+  width: 500px;
+  height: auto; }
+
+.para {
+  padding: 20px; }
+
+.menu-modal.modal-dialog {
+  width: 100% !important;
+  height: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  max-width: none !important; }
+
+.menu-modal.modal-content {
+  height: auto !important;
+  min-height: 100% !important;
+  border-radius: 0 !important;
+  background-color: rgba(0, 0, 0, 0.9); }
+
+.menu-modal .modal-header {
+  border-bottom: 3px solid #6a2827 !important;
+  font-family: "Martel", serif;
+  font-weight: bold;
+  size: 60px;
+  color: white;
+  font-size: 2em; }
+
+.menu-modal .modal-body {
+  padding-top: 5%;
+  font-size: 1em;
+  font-family: "Martel", serif;
+  color: white; }
+
+.nav-link {
+  color: white;
+  text-align: center;
+  font-size: 1.1em;
+  font-family: "Martel", serif; }
+
+.form-control {
+  background: #272727;
+  border: 2px solid #6a2827;
+  border-radius: 0;
+  box-shadow: none;
+  color: white;
+  font-family: "Martel", serif; }
+
+.form-label {
+  color: white;
+  font-family: "Martel", serif; }
+
+.booking-form select.form-control {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none; }
+
+.booking-form select.form-control + .select-arrow {
+  position: absolute;
+  right: 10px;
+  top: 25px;
+  width: 32px;
+  line-height: 32px;
+  height: 32px;
+  text-align: center;
+  pointer-events: none;
+  color: #fff;
+  font-size: 30px; }
+
+.booking-form select.form-control + .select-arrow:after {
+  content: '\21A1';
+  display: block; }
+
+  .jumbotron-fluid{
+    background-image: url("/public/assets/img/bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+   }
+
+  /* body, html {
+    height: 100%;
+    }
+    .bg {
+    background-image: url("/public/assets/img/bg.jpg");
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    } */
+
+
