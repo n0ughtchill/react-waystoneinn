@@ -52,7 +52,7 @@ h3 {
   position: relative;
   font-family: "Martel", serif; }
 
-.navbar-nav.navbar-center {
+.Navbar {
   position: absolute;
   left: 50%;
   transform: translatex(-50%); }
@@ -73,7 +73,7 @@ h3 {
 form {
   padding: 20px; }
 
-.book-button {
+.book-button .Button {
   display: block;
   height: 100%;
   font-size: 1.1em;
